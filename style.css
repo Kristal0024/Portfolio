@@ -107,12 +107,35 @@ margin-right: 4%;
     body{
         width: 100%;
         height: auto;
+        /* background-color: #0E112C; */
     }
     .nav h1{
         font-size: 16px;
     }
+    .main-nav{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid white;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        /* right: 0; */
+        z-index: 999;
+        background-color: #0E112C;
+        opacity: 99%;
+    }
     .nav ul{
         display: none;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        transition: 3s ease-in-out;
+    }
+    .main-nav a{
+        font-size: 5vmin;
+    }
+    .main-nav img{
+        margin-right: 10vmin;
     }
     .nav{
         display: flex;
@@ -160,6 +183,9 @@ margin-right: 4%;
  }
  @media only screen and (min-width:425px) {
     .menu{
+        display: none;
+    }
+    .main-nav img{
         display: none;
     }
 }
