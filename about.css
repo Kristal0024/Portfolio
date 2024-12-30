@@ -6,7 +6,7 @@
 
 }
 body{
-    background-color:#2E378E ;
+    background-color:#0E112C ;
     background-size: cover;
 }
 .backarrow{
@@ -20,7 +20,6 @@ body{
 .main{
     height: fit-content;
     width: 90%;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,6 +33,7 @@ display: flex;
 margin-right: 10%;
 margin-left: 5%;
 position: relative;
+aspect-ratio: 16 / 9;
 /* border: 2px solid black; */
 }
 .image1{
@@ -81,4 +81,39 @@ font-weight: 400;
     color: white;
     cursor: pointer;
     padding: 2%;
+}
+@media only screen and (max-width:425px){
+    .backarrow img{
+        width: 40px;
+    }
+ .main{
+   /* border: 2px solid red; */
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   height: 100vh;
+ }
+ .container{
+    width: 100%;
+    /* border: 2px solid white; */
+    margin: 0;
+    transform: translateY(-10%);
+ }
+ .text h1{
+    font-size: 9vw;
+    padding:2%;
+ }
+ .text h2{
+    font-size: 5.5vw;
+    padding: 2%;
+ }
+ .text p{
+    font-size: 2.5vw;
+    padding: 2%;
+ }
+ .seemore{
+    font-size: 3vw;
+    height: 8vh;
+    width: 30vw;
+ }
 }

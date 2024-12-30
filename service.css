@@ -67,3 +67,46 @@ button{
     cursor: pointer;
     font-size: 1.1rem;
 }
+@media only screen and (max-width:425px) {
+.backarrow img{
+    width: 40px;
+}
+ .heading{
+    font-size: 8vw;
+ }
+ .services{
+    position: relative;
+    flex-direction: column;
+    width: 80vw;
+ }
+ .first-service{
+    width: 85vw;
+    margin-bottom: 10%;
+    gap: 4vh;
+    height: 60vh;
+    transform: translateX(-2.5%);
+ }
+ .first-service img{
+    width: 35px;
+ }
+ .first-service h1{
+    font-size: 6vw;
+ }
+ .read1,.read2{
+    font-size: 3vh;
+    border-radius: 30px;
+ }
+ .second-service{
+    width: 85vw;
+    gap: 4vh;
+    height: 60vh;
+    transform: translateX(-2.5%);
+    margin-bottom: 5vh;
+ }
+ .second-service img{
+    width: 35px;
+ }
+ .second-service h1{
+    font-size: 6vw;
+ }
+}
