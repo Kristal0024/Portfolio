@@ -84,7 +84,7 @@ button{
     width: 70vw;
     margin-bottom: 10%;
     gap: 2vh;
-    height: 40vh;
+    height: fit-content;
     padding: 5%;
     /* transform: translateX(-2.5%); */
  }
@@ -102,11 +102,12 @@ button{
     height: 6vh;
     font-size: 3vw;
     border-radius: 30px;
+    padding: 0;
  }
  .second-service{
     width: 70vw;
     gap: 2vh;
-    height: 40vh;
+    height: fit-content;
     /* transform: translateX(-2.5%); */
     margin-bottom: 5vh;
     padding: 5%;
