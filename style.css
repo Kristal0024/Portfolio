@@ -181,7 +181,85 @@ margin-right: 4%;
         font-size: 3vmin;
     }
  }
- @media only screen and (min-width:425px) {
+  @media only screen and (max-width:920px) {
+    body{
+        width: 100%;
+        height: auto;
+        /* background-color: #0E112C; */
+    }
+    .nav h1{
+        font-size: 3vw;
+    }
+    .main-nav{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid white;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        /* right: 0; */
+        z-index: 999;
+        background-color: #0E112C;
+        opacity: 99%;
+    }
+    .nav ul{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        transition: 3s ease-in-out;
+    }
+    .main-nav a{
+        font-size: 5vmin;
+    }
+    .main-nav img{
+        margin-right: 10vmin;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3vh;
+    }
+    .menu{
+        margin-right: 5vmin;
+    }
+    .menu img{
+        width: 5vw;
+    }
+    .main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .glow{
+        width: 45vw;
+    }
+    .discription{
+        width: 100vw;
+        margin: 0 5vw;
+    }
+    .discription h2{
+        font-size: 5vmin;
+    }
+    .discription h1{
+        font-size: 5vmin;
+    }
+    .discription h3{
+        font-size: 5vmin;
+        margin-bottom: 4vh;
+    }
+    .discription p{
+        font-size: 3vmin;
+        margin-bottom: 4vh;
+    }
+    .download{
+        margin-bottom: 2vh;
+    }
+    .download button{
+        font-size: 3vmin;
+    }
+ }
+ @media only screen and (min-width:921px) {
     .menu{
         display: none;
     }
